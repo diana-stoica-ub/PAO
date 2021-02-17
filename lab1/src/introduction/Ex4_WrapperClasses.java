@@ -20,12 +20,21 @@ public class Ex4_WrapperClasses {
         Double doubleWrapped = 5.99;
         Character charWrapped = 'A';
 
-        System.out.println(intWrapped.intValue());
+        int nw = 5;
+        Integer w1 = nw;
+
+        System.out.println("String " + intWrapped.intValue() + "\n" + "newline");
         System.out.println(doubleWrapped.doubleValue());
         System.out.println(charWrapped.charValue());
 
         int intPrimitive = 10;
-        System.out.print(Integer.valueOf(intPrimitive));
+        System.out.println(Integer.valueOf(intPrimitive));
         char charPrimitive = Character.valueOf('C'); //If the conversion goes the other way, this is called unboxing.
+
+        int a1 = 5;
+        int a2 = Integer.valueOf(10);
+        if (a1 < a2) {
+            System.out.println("Compare!");
+        }
     }
 }
