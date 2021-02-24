@@ -1,5 +1,7 @@
 package animal;
 
+import java.util.Objects;
+
 public class Bird extends Animal {
 
     private String colour;

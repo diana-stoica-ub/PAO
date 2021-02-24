@@ -24,6 +24,10 @@ public class Animal {
         System.out.println("I need food!");
     }
 
+    public void eat(String whatIEat) {
+        System.out.println("I eat " + whatIEat);
+    }
+
     public AnimalType getType() {
         return type;
     }

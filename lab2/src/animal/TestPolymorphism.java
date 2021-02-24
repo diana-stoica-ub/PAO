@@ -7,8 +7,13 @@ public class TestPolymorphism {
         Animal a2 = new Bird(AnimalType.OMNIVORE, 2, "red");
         Animal a3 = new Cat(AnimalType.CARNIVORE, 4, false);
 
-        a1.move();
-        a2.move();
-        a3.move();
+        moveAndEat(a1);
+        moveAndEat(a2);
+        moveAndEat(a3);
+    }
+
+    public static void moveAndEat(Animal animal) {
+        animal.move();
+        animal.eat();
     }
 }

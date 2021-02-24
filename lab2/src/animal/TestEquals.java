@@ -22,7 +22,7 @@ public class TestEquals {
             System.out.println("Cat1 != Cat2");
         }
 
-        /*Bird bird3 = bird1;
+        Bird bird3 = bird1;
         if (bird1.equals(bird3)) {
             System.out.println("Bird1 == Bird3");
         } else {
@@ -34,6 +34,6 @@ public class TestEquals {
         } else {
             System.out.println("Bird1 != Bird3");
         }
-        //if we don't override .equals(), it compares the reference (same as "==")*/
+        //if we don't override .equals(), it compares the reference (same as "==")
     }
 }
