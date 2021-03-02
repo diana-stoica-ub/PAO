@@ -18,7 +18,9 @@ public class Cat extends Animal {
 
     @Override
     public boolean equals(Object o) {   //overridden from Object class
-        if (this == o) return true;
+        if (this == o) {
+            return true;
+        }
         if (o == null || getClass() != o.getClass()) {
             return false;
         }
