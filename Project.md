@@ -52,4 +52,14 @@ Structura fișierului: nume_actiune, timestamp
 Să se realizeze servicii care sa expună operații de tip create, read, update si delete pentru cel puțin 4 dintre clasele definite.
 
 ## Teme sugerate
-TODO
+
+1) catalog (student, materie, profesor)
+2) biblioteca (sectiuni, carti, autori, cititori)
+3) programare cabinet medical (client, medic, programare)
+4) gestiune stocuri magazin (categorii, produse, distribuitori)
+5) aplicatie bancara (conturi,extras de cont, tranzactii, carduri, servicii)
+6) platfora e-learning(cursuri, utilizatori, cursanti, quizuri)
+7) sistem licitatii (licitatii, bids, produse, utilizatori)
+8) platforma food delivery(localuri, comenzi, soferi, useri)
+9) platforma imprumuturi carti - tip bookster (companii afiliate, utilizatori, carti)
+10) platforma e-ticketing (evenimente, locatii, clienti)
