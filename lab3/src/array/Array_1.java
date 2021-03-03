@@ -9,7 +9,7 @@ public class Array_1 {
         array[1] = 11;
         array[2] = 12;
 
-       // array[3] = 5;       //this will throw an exception => ArrayIndexOutOfBoundsException
+       //array[3] = 5;       //this will throw an exception => ArrayIndexOutOfBoundsException
 
         //for loop
         for (int i = 0; i < array.length; i++) {

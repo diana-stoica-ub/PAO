@@ -4,6 +4,7 @@ public class Parameters {
 
     static void changeReference(Student st) {
         st = new Student("Bob", 10);
+        st.setName("dfnhsdk");
     }
 
     static void changeObject(Student st) {

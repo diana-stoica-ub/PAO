@@ -15,5 +15,7 @@ public class String_1 {
         for (int i = 0; i < s1.length(); i++) {
             System.out.print(s1.charAt(i));
         }
+
+        //s1.charAt(100);  //throws StringIndexOutOfBoundsException
     }
 }
