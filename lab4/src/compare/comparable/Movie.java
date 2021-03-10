@@ -37,6 +37,7 @@ public class Movie implements Comparable<Movie> {
     public void setRating(double rating) {
         this.rating = rating;
     }
+
     @Override
     public int compareTo(Movie movie) {
         /*

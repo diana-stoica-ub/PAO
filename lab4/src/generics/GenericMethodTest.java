@@ -14,7 +14,7 @@ public class GenericMethodTest {
         return inputArray[0];
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         // Create arrays of Integer, Double and Character
         Integer[] intArray = { 1, 2, 3, 4, 5 };
         Double[] doubleArray = { 1.1, 2.2, 3.3, 4.4 };

@@ -13,7 +13,7 @@ public class GenericClassTest_Box<T> {
 
         public static void main(String[] args) {
             GenericClassTest_Box<Integer> integerBox = new GenericClassTest_Box<Integer>();
-            GenericClassTest_Box<String> stringBox = new GenericClassTest_Box<String>();
+            GenericClassTest_Box<String> stringBox = new GenericClassTest_Box<>();
 
             integerBox.add(new Integer(10));
             stringBox.add(new String("Hello World"));
