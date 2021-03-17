@@ -1,5 +1,7 @@
 package set;
 
+import list.NumberComparator;
+
 import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
@@ -21,5 +23,11 @@ public class TreeSetExample {
 
         //elements are ordered
         System.out.println(hs);
+
+        Set<Integer> hsInts = new TreeSet<>(new NumberComparator());
+        hsInts.add(10);
+        hsInts.add(2);
+        hsInts.add(5);
+        System.out.println(hsInts);
     }
 }

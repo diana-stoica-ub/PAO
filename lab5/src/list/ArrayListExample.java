@@ -9,6 +9,9 @@ public class ArrayListExample {
         //ArrayList instantiation:
         List<String> vegetables = new ArrayList<>();
 
+        //We can give initial capacity
+        List<String> plants = new ArrayList<>(10);
+
         //we can pass a list as parameter to the constructor
         List<String> fruits = new ArrayList<>(Arrays.asList("Apple", "Orange", "Grape"));
 
@@ -66,6 +69,7 @@ public class ArrayListExample {
         } else {
             System.out.println("Grape not found");
         }
+        //fruits.contains(..), fruits.containsAll(..)-> search for value
 
     }
 }

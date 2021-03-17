@@ -39,5 +39,7 @@ public class HashMapExample {
             System.out.println();
         }
 
+        System.out.println(students.keySet());
+
     }
 }

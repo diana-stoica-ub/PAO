@@ -17,5 +17,6 @@ public class HashSetExample {
         hs.add("C");
         hs.add("F");
         System.out.println(hs);
+
     }
 }
