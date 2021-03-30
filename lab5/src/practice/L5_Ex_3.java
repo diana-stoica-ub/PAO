@@ -10,7 +10,7 @@ import java.util.Scanner;
  * Sa se calculeze media aritmetica a acestora si sa se stearga cele mai mici decat aceasta
  * Apoi, sa se printeze
  */
-public class Ex_3 {
+public class L5_Ex_3 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

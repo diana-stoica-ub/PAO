@@ -17,7 +17,7 @@ import java.util.Map;
  * d: 1
  * r: 2
  */
-public class Ex_2 {
+public class L5_Ex_2 {
     public static void main(String[] args) {
         String string = "abracadabra";
 

@@ -11,7 +11,7 @@ import java.util.TreeSet;
  *
  * Sa se sorteze in functie de acest lucru si sa se afiseze colectia sortata
  */
-public class Ex_4 {
+public class L5_Ex_4 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

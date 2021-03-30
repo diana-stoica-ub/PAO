@@ -8,7 +8,7 @@ import java.util.Set;
  * Se da un String;
  * sa se elimine literele duplicate
  */
-public class Ex_1 {
+public class L5_Ex_1 {
 
 
     public static void main(String[] args) {

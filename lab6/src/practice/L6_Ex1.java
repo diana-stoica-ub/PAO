@@ -15,7 +15,7 @@ import practice.exceptions.OverflowException;
  * Sa se trateze exceptiile ce pot aparea folosind exceptii custom (ex: nullcheks, overflow, underflow)
  *
  */
-public class Ex1 {
+public class L6_Ex1 {
 
 
     public static void main(String[] args) {
