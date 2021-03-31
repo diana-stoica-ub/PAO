@@ -13,19 +13,18 @@ public class Ex4_Consumer {
         echo.accept("This is first line.", "Here is another line");
     }
     public void convertToLowercase() {
-        Consumer<String> convertToLowercase = s ->
-                System.out.println(s.toLowerCase());
+        Consumer<String> convertToLowercase = s -> System.out.println(s.toLowerCase());
         convertToLowercase.accept("convert to ALL lowercase");
     }
     public void printPrefix() {
-        Consumer<String> sayHello = name -> System.out.println("Hello, " +
-                name);
+        Consumer<String> sayHello = name -> System.out.println("Hello, " + name);
         for (String name : Arrays.asList("Silvia", "John", "Doe")) {
             sayHello.accept(name);
         }
     }
     public void printDoubleConsumer() {
         DoubleConsumer echo = System.out::println;
+        //echo = d -> System.out.println(d);
         echo.accept(3.3);
     }
     public void printIntConsumer() {

@@ -1,1 +1,1 @@
-Written using DataOutputStream
+This is a text

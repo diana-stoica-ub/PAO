@@ -69,7 +69,8 @@ pasarea functiilor ca si parametru altor metode.
 - primeste 2 parametrii si intoarce un rezultat
 - metoda abstracta: apply(Object, Object); 
 
-- IntFunction, DoubleFunction, IntToDoubleFunction, IntToLongFunction, DoubleToIntFunction,
+- IntFunction, DoubleFunction, IntToDoubleFunction, IntToLongFunction, 
+  DoubleToIntFunction,
   DoubleToLongFunction, LongToDoubleFunction, and LongToIntFunction.
   
 #### Predicate

@@ -20,8 +20,14 @@ public class Ex3_Supplier {
         LongSupplier maxLongValue = () -> Long.MAX_VALUE;
         return maxLongValue.getAsLong();
     }
-    public String asString() {
-        Supplier<String> message = () -> "Get a string";
+    public String asString(boolean empty) {
+        Supplier<String> message = () -> {
+            if (empty) {
+                return "";
+            } else {
+                return "Get a string";
+            }
+        };
         return message.get();
     }
 }

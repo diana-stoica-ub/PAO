@@ -14,6 +14,10 @@ public class Lambda {
         colors.add("Yellow");
         colors.add("Pink");
 
+        //() -> {};
+
+        //colors.forEach((color) -> {System.out.println(color)});
+
         colors.forEach(color -> System.out.println(color));
 
         System.out.println("Sorted colors:");
