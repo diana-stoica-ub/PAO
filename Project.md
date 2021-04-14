@@ -10,7 +10,7 @@ Condiția de punctare a proiectelor:
 
 Termene de predare:
 - Etapa I​: 31 martie 2021
-- Etapa II​: 28 aprilie 2021
+- Etapa II​: 12 mai 2021
 - Etapa III: 26 mai 2021
 
 ## Etapa I
