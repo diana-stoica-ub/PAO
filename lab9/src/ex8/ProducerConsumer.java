@@ -62,7 +62,7 @@ public class ProducerConsumer {
             int value = 0;
             while (true) {
                 synchronized (this) {
-                    if (value == 3) { //stop condition - remove for infinite producing
+                    while (value == 3) { //stop condition - remove for infinite producing
                         break;
                     }
                     // producer thread waits while list
@@ -92,7 +92,7 @@ public class ProducerConsumer {
                 synchronized (this) {
                     // consumer thread waits while list
                     // is empty
-                    if (list.size() == 0) {
+                    while (list.size() == 0) {
                         wait();
                     }
                     // to retrieve the first job in the list

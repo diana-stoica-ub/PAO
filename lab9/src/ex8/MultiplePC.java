@@ -82,7 +82,7 @@ public class MultiplePC {
                 synchronized (this) {
                     // producer thread waits while list
                     // is full
-                    if (list.size() == capacity) {
+                    while (list.size() == capacity) {
                         wait();
                     }
 
@@ -107,7 +107,7 @@ public class MultiplePC {
                 synchronized (this) {
                     // consumer thread waits while list
                     // is empty
-                    if (list.size() == 0) {
+                    while (list.size() == 0) {
                         wait();
                     }
                     // to retrieve the first job in the list
