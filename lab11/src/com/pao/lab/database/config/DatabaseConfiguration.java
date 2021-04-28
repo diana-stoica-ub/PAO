@@ -18,10 +18,9 @@ public class DatabaseConfiguration {
     public static Connection getDatabaseConnection() {
         try {
             if (databaseConnection == null || databaseConnection.isClosed()) {
-                Class.forName("com.mysql.cj.jdbc.Driver");
                 databaseConnection = DriverManager.getConnection(DB_URL, USER, PASSWORD);
             }
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return databaseConnection;

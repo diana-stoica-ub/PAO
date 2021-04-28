@@ -17,16 +17,16 @@ public class PersonRepository {
             cstmt.setString(2, person.getName());
             cstmt.setDouble(3, person.getAge());
 
-            cstmt.registerOutParameter(1, Types.INTEGER);
+            cstmt.registerOutParameter(1, Types.INTEGER); //out param (result of the procedure call)
 
             cstmt.execute();
-            System.out.println("Added user with id:" + cstmt.getInt(1));
+            System.out.println("Added user with id:" + cstmt.getInt(1));    //out param (result of the procedure call)
         } catch (SQLException e) {
             e.printStackTrace();
         }
     }
 
-    // PreparedStatement
+    // PreparedStatement - use when we have parameters
     public Person getPersonById(int id) {
         String selectSql = "SELECT * FROM persons WHERE id=?";
 

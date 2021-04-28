@@ -18,14 +18,15 @@ public class RepositoryHelper {
 
     public void executeSql(Connection connection, String sql) throws SQLException {
         Statement stmt = connection.createStatement();
-        // execute() for updating and select instructions
+        // execute() for updating (INSERT, UPDATE, DELETE) and SELECT instructions
         stmt.execute(sql);
+        //ResultSet resultSet = stmt.getResultSet();
     }
 
     public void executeUpdateSql(Connection connection, String sql) throws SQLException {
         Statement stmt = connection.createStatement();
-        // executeUpdate() for updating the data or the database structure
-        stmt.executeUpdate(sql);
+        // executeUpdate() for updating the data (INSERT, UPDATE, DELETE) or the database structure
+        int i = stmt.executeUpdate(sql); // no of altered lines
     }
 
     public ResultSet executeQuerySql(Connection connection, String sql) throws SQLException {
